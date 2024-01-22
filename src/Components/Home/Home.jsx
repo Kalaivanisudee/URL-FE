@@ -134,7 +134,7 @@ const Home = () => {
                         <h1>SHORT URL : </h1>
                         <div className="text">
                             <a
-                                href={`${"https://url-be-xui6.onrender.com"}${shortenedURL}`}
+                                href={`${"https://url-be-xui6.onrender.com/"}${shortenedURL}`}
                             >
                                 {status ? `${shortenedURL}` : ""}
                                 {/* {"https://url-shortener-wkbn.onrender.com"}${shortenedURL}` */}
@@ -143,7 +143,7 @@ const Home = () => {
                         </div>
                         <CopyToClipboard
                             className="copy"
-                            text={`${"https://url-be-xui6.onrender.com"}${shortenedURL}`}
+                            text={`${"https://url-be-xui6.onrender.com/"}${shortenedURL}`}
                             onCopy={handleCopy}
                         >
                             <button className="border-2 border-blue-500 text-blue-500 font-medium px-5 py-2 ml-4 rounded-md">

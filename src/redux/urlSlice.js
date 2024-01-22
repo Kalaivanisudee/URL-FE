@@ -9,7 +9,7 @@ const initialState = {
 };
 // const backend = "http://localhost:5000/url/";
 // https://url-shortener-wkbn.onrender.com/url/vFpitM07P
-const backend = "https://url-be-xui6.onrender.com";
+const backend = "https://url-be-xui6.onrender.com/";
 
 export const urlThunk = createAsyncThunk(
   "urls/urlfetchdata",
